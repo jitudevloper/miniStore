@@ -1,0 +1,44 @@
+/* SignupForm.css */
+
+/* Base styles */
+.signup-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .signup-form input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+
+  .signup-form button {
+    display: block;
+    width: 60%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .signup-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .signup-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Media queries for responsiveness */
+  @media only screen and (max-width: 600px) {
+    .signup-form {
+      max-width: 100%;
+    }
+  }
+  

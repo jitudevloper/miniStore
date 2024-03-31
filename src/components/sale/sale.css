@@ -1,0 +1,15 @@
+/* style="background-image: url('images/single-image1.png');background-position: right; background-repeat: no-repeat;" */
+
+.colo{
+background-image: url('../../image//single-image1.png');
+background-position: right;
+background-repeat: no-repeat;
+/* background-size: cover; */
+background-color: rgb(176, 180, 181);
+margin-bottom: 50px;
+}
+
+.text-content{
+    margin-top: 140px;
+    margin-bottom: 200px;
+}

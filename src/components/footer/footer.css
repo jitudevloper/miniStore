@@ -1,0 +1,91 @@
+
+.footer {
+    margin: 40px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .social-links li{
+    margin: 5px 15px;
+    font-size: 20px;
+  }
+  .facebook{
+    color: gray;
+  }
+  .insta{
+    color: gray;
+  }
+  .facebook{
+    color: gray;
+  }
+  .twitter{
+    color: gray;
+  }
+  .linkedin{
+    color: gray;
+  }
+  .menu-item a{
+    color: rgb(103, 93, 93);
+    text-decoration: none;
+  }
+
+  .menu-item a:hover{
+    color: lightblue;
+  }
+
+  .yourInfo{
+    color: red;
+    text-decoration: none;
+  }
+  
+  .col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 0 15px;
+  }
+  
+  .footer-menu {
+    margin-bottom: 30px;
+  }
+  
+  .footer-menu h5 {
+    margin-bottom: 15px;
+  }
+  
+  .menu-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-item {
+    padding-bottom: 10px;
+  }
+  
+  /* Medium-sized screens */
+  @media (max-width: 992px) {
+    .col-lg-3 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Small screens (mobile) */
+  @media (max-width: 576px) {
+    .col-lg-3 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  
+    .footer-menu {
+      text-align: center;
+    }
+  }
+  

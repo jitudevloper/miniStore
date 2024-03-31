@@ -1,0 +1,59 @@
+
+.container-fluid{
+    display: flex;
+    margin-left: 20px;
+    /* margin-top: 50px; */
+    }
+    h1{
+        margin: 70px 70px;
+    }
+    
+    .card {
+        border-radius: 5px;
+        margin-top: 20px;
+        margin: 0 30px;
+      }
+      
+      .card img {
+        /* max-width: 100%; */
+        height: 100%;
+        width: 100%;
+        margin-bottom: 10px;
+        cursor: pointer;
+      }
+      
+      .card button {
+        position: absolute;
+        /* bottom: 5px; */
+        top: 55%;
+        left: 20%;
+        transform: translateX(-50%);
+        background-color: black;
+        color: #fff;
+        border: none;
+        /* margin-top: 190px; */
+        /* margin-right: 70px; */
+        padding: 10px 50px;
+        border-radius: 3px;
+        cursor: pointer;
+        opacity: 0; /* Hide the button by default */
+        transition: opacity 0.3s ease; /* Smooth transition for opacity */
+    }
+    
+    .card:hover button {
+        opacity: 1; 
+        /* color: #fff;
+        background-color: rgba(69, 111, 97, 0.5); */
+    }
+      
+      .card-content{
+        display: flex;
+        margin-left: 20px;
+      }
+    
+      @media (max-width: 991px) {
+        .card {
+            width: calc(50% - 40px); /* Two cards per row with some margin */
+        }
+    }
+    

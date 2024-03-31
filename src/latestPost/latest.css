@@ -1,0 +1,16 @@
+.container{
+    background-color: #fff;
+}
+.meta-date{
+    padding-left: 30px;
+}
+.card-title a{
+    color: rgb(174, 168, 168);
+    padding: 30px;
+    font-size: 20px;
+    /* list-style: none; */
+    text-decoration: none;
+}
+.card-title a:hover{
+    color: rgb(140, 135, 164);
+}
